@@ -16,7 +16,16 @@
 
 /* shared style */
 
-
+.btn-uni{
+    color: #fff;
+    background-color: #FD6E0A;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    padding: 18px 35px;
+    border-radius: 5px;
+}
 .section-title{
     font-size: 35px;
     font-weight: bold;
@@ -47,6 +56,10 @@
 .exprience-description{
     font-size: 16px;
     color: #757575;
+}
+.text-align{
+    text-align: center;
+    margin-bottom: 113px;
 }
 
 /* Nav styles */
@@ -159,4 +172,34 @@ main section{
 }
 .resume {
     margin-bottom: 50px;
+}
+
+/* footer section styles*/
+
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.section-tt1{
+    font-size: 35px;
+    font-weight: bold;
+}
+.footer-column{
+    width: 50%;
+}
+footer input[type="text"] , footer input[type="email"], footer textarea{
+    height: 64px;
+    border-radius: 4px;
+    background-color: #fff;
+    display: block;
+    width: 100%;
+    padding: 18px 30px;
+    margin-bottom: 24px;
+    border: none;
+}
+.name{
+    font-size: 16px;
+    color: #757575;
+
 }
