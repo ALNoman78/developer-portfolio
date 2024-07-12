@@ -203,3 +203,25 @@ footer input[type="text"] , footer input[type="email"], footer textarea{
     color: #757575;
 
 }
+/* media queary responsive design */
+.hide{
+    display: none;
+}
+
+@media screen and (max-width: 576px) {
+    .skill{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 576px) {
+    .resume-container{
+        flex-direction: column;
+        padding: 8px;
+    }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    .skill{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
